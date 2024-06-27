@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>JA Construction</title>
+    </head> 
+
+    <body>
+        <header class="transparent-header">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="image-container">
+            <img src="construction_site.jpg" alt="Construction Site">
+            <div class="overlay">
+                <p>We build it.</p>
+            </div>
+        </div>
+        
+        <div id="about" class="about">
+            <h1>About Us</h1>
+            <div class="mission-vision-container">
+                <div class="mission">
+                    <h2>Mission</h2>
+                    <p>Our mission at JA Construction is to build communities through exceptional construction services. We are committed to delivering high-quality projects that enhance the lives of our clients and contribute positively to the environment and society. With a focus on integrity, innovation, and sustainability, we aim to exceed expectations and build lasting relationships with our clients and partners.</p>
+                </div>
+                
+                <div class="vision">
+                    <h2>Vision</h2>
+                    <p>To be the leading construction company known for innovation, reliability, and excellence in not just Cavite but the whole Philippines. We envision a future where our projects stand as testaments to our dedication to craftsmanship and sustainability. By leveraging cutting-edge technology and fostering a culture of collaboration and safety, we strive to be a trusted partner in building a better tomorrow for generations to come.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="services" class="services">
+            <h1>Services</h1>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="masonry.jpg" style="width:100%">
+                    <div class="text">Masonry</div>
+                </div>
+              
+                <div class="mySlides fade">
+                    <img src="metal_fabrication.jpg" style="width:100%">
+                    <div class="text">Metal Fabrication</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="electrical_installation.jpg" style="width:100%">
+                    <div class="text">Electrical Installation</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="plumbing.jpg" style="width:100%">
+                    <div class="text">Plumbing</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="tiling.jpg" style="width:100%">
+                    <div class="text">Tiling</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="painting.jpg" style="width:100%">
+                    <div class="text">Painting</div>
+                </div>
+              
+                <!-- Navigation arrows -->
+                <a class="prev" onclick="minusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>  
+        </div>
+
+        <div id="projects" class="projects">
+            <h1>Projects</h1>
+            <div class="slideshow-container">
+                <div class="projectSlides fade">
+                    <img src="project_masonry.jpg" style="width:100%">
+                    <div class="text">Masonry</div>
+                </div>
+              
+                <div class="mySlides fade">
+                    <img src="project_metal_fabrication.jpg" style="width:100%">
+                    <div class="text">Metal Fabrication</div>
+                </div>
+
+                <div class="projectSlides fade">
+                    <img src="project_electrical_insallation.jpg" style="width:100%">
+                    <div class="text">Electrical Installation</div>
+                </div>
+
+                <div class="projectSlides fade">
+                    <img src="project_tiling.jpg" style="width:100%">
+                    <div class="text">Tiling</div>
+                </div>
+
+                <div class="projectSlides fade">
+                    <img src="project_painting.jpg" style="width:100%">
+                    <div class="text">Painting</div>
+                </div>
+              
+                <!-- Navigation arrows -->
+                <a class="prev" onclick="minusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </div>
+
+        <footer id="contact">
+            <div class="footer-content">
+                <div class="footer-item">
+                    <img src="facebook_icon.png" alt="Facebook">
+                    <p>AJG Construction C</p>
+                </div>
+
+                <div class="footer-item">
+                    <img src="call_icon.png" alt="Contact">
+                    <p>0945 224 8518</p>
+                </div>
+
+                <div class="footer-item">
+                    <img src="gmail_icon.png" alt="Gmail">
+                    <p>jgalmazanconstruction@gmail.com</p>
+                </div>
+            </div>
+        </footer>
+      
+        <script src="script.js"></script>
+    </body>
+</html>
